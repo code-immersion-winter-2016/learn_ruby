@@ -3,5 +3,5 @@ def ftoc (temp)
 end
 
 def ctof (freez_temp)
-  (freez_temp * 9/5) + 32
+  (freez_temp * 9/5.to_f) + 32
 end
